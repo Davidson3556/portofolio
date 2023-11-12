@@ -33,7 +33,7 @@ nav{
 }
 .logo{
     width: 50px;
-    
+    border-radius: 7px;
 }
 nav ul li{
     display: inline-block;
@@ -338,6 +338,9 @@ nav .fa-solid{
 @media only screen and (max-width: 600px) {
     #header{
         background-image: url(images/phoneimage.png);
+    }
+    .logo{
+        width: 40px;
     }
     .header-text{
         margin-top: 40%;
